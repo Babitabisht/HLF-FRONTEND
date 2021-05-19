@@ -1,27 +1,20 @@
-# HlfUi
+# HLF-FRONTEND
+Angular Based Frontend  for Three peer one org hyperledger Based network.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
-## Development server
+Related Repositories: -
+1. [Blockchain-Network](https://github.com/Babitabisht/Assignment_Blockchain_Network)
+1. [APIs](https://github.com/Babitabisht/Assignment_Backend)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Replace apiURL from localhost to your server address in the below two files under environments folder -
+1. environment.ts
+1. environment.prod.ts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+export const environment = {
+  production: true,// value false in dev mode
+  apiURL: 'http:your_server_ip:3001'
+};
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
