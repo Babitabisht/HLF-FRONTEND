@@ -33,7 +33,7 @@ The overall application consists of  -
 System Prerequisites : -
 1. [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 1. [Docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
-1. Nodejs version 8.x
+1. [NVM](https://tecadmin.net/how-to-install-nvm-on-ubuntu-18-04/) Use Nodejs version 8.x
 1. [Golang](https://www.tecmint.com/install-go-in-ubuntu/)
 1. [Python](https://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/) 
 1. [Pm2](https://www.npmjs.com/package/pm2)
